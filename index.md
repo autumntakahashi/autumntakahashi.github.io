@@ -4,7 +4,7 @@ title: Home
 ---
 <h1>{{ site.title }}</h1>
 
-I'm a researcher technician working on computational neuroscience.  I write about the things I'm figuring out along the way.
+I'm a research technician working on computational neuroscience.  I write about the things I'm figuring out along the way.
 
 
 ## Recent articles
