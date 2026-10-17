@@ -1,0 +1,32 @@
+# ---- Site settings ----
+title: Autumn Takahashi
+tagline: person
+description: Research, art, and articles by Autumn Takahashi.
+email: name@example.com
+github_username: autumntakahashi
+
+# For a repo named myusername.github.io, leave baseurl empty.
+# Once I have a custom domain, change url to https://myname.com
+url: "https://autumntakahashi.github.io"
+baseurl: ""
+
+# ---- Math (LaTeX) ----
+# true = load MathJax on every page. Set to false and add `math: true`
+# to the front matter of individual pages if you prefer.
+math: true
+
+# ---- Build settings ----
+markdown: kramdown
+kramdown:
+  math_engine: null   # leave $$...$$ alone so MathJax v3 renders it
+  input: GFM
+
+permalink: /articles/:title/
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

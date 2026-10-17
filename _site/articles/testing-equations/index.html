@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Testing equations | Your Name</title>
+<meta name="description" content="Research, art, and articles by Your Name.">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your Name" />
+
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$$', '$$'], ['\\(', '\\)']],
+      displayMath: [['\\[', '\\]']],
+      processEscapes: true
+    }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <a class="site-name" href="/">Your Name</a>
+  <nav aria-label="Main">
+    <a href="/research/">Research</a>
+    <a href="/art/">Art</a>
+    <a href="/articles/" aria-current="page">Articles</a>
+  </nav>
+</header>
+
+  <main id="main">
+    <article>
+  <h1>Testing equations</h1>
+  <p class="meta"><time datetime="2026-10-17T00:00:00-05:00">October 17, 2026</time></p>
+  <p>A post to show formatted math to see my setup works.</p>
+
+<p>Inline math goes between double dollar signs, like \(e^{i\pi} + 1 = 0\) in the middle of a sentence, or a variable with a subscript such as \(x_i\).</p>
+
+<p>Display math goes on its own lines:</p>
+
+\[\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}\]
+
+<p>Multi-line equations work with <code class="language-plaintext highlighter-rouge">aligned</code>:</p>
+
+\[\begin{aligned}
+\nabla \cdot \mathbf{E} &amp;= \frac{\rho}{\varepsilon_0} \\
+\nabla \times \mathbf{B} &amp;= \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}
+\end{aligned}\]
+
+<p>And matrices:</p>
+
+\[A = \begin{pmatrix} a_{11} &amp; a_{12} \\ a_{21} &amp; a_{22} \end{pmatrix}\]
+
+</article>
+<p class="back"><a href="/articles/">All articles</a></p>
+
+  </main>
+  <footer class="site-footer">
+  <p>
+    <a href="mailto:you@example.com">Email</a>
+    <a href="https://github.com/yourusername">GitHub</a>
+    <a href="/feed.xml">RSS</a>
+  </p>
+  <p>&copy; 2026 Your Name</p>
+</footer>
+
+</body>
+</html>

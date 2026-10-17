@@ -1,0 +1,21 @@
+# One entry per paper or project. Newest first.
+# Put PDFs in assets/papers/ and link them like: /assets/papers/my-paper.pdf
+- title: "Example paper title: replace this with a real one"
+  authors: "Name, Coauthor Name"
+  venue: "Journal or Conference"
+  year: 2026
+  links:
+    - label: PDF
+      url: "/assets/papers/example.pdf"
+    - label: DOI
+      url: "https://doi.org/"
+    - label: Code
+      url: "https://github.com/yourusername"
+
+- title: "A second example entry"
+  authors: "Name"
+  venue: "Preprint"
+  year: 2025
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/"

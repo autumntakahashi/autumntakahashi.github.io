@@ -1,0 +1,8 @@
+<header class="site-header">
+  <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <nav aria-label="Main">
+    <a href="{{ '/research/' | relative_url }}"{% if page.url contains '/research' %} aria-current="page"{% endif %}>Research</a>
+    <a href="{{ '/art/' | relative_url }}"{% if page.url contains '/art/' %} aria-current="page"{% endif %}>Art</a>
+    <a href="{{ '/articles/' | relative_url }}"{% if page.url contains '/articles' %} aria-current="page"{% endif %}>Articles</a>
+  </nav>
+</header>

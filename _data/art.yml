@@ -1,0 +1,21 @@
+# Resize images to about 1600px on the long edge before adding them (WebP or JPEG).
+- title: "Placeholder one"
+  image: /assets/art/placeholder-1.svg
+  medium: "Watercolor"
+  year: 2026
+  alt: "Replace with a short description of the image"
+
+- title: "Placeholder two"
+  image: /assets/art/placeholder-2.svg
+  medium: "Digital"
+  year: 2026
+
+- title: "Placeholder three"
+  image: /assets/art/placeholder-3.svg
+  medium: "Ink on paper"
+  year: 2025
+
+- title: "Placeholder four"
+  image: /assets/art/placeholder-4.svg
+  medium: "Oil on canvas"
+  year: 2025

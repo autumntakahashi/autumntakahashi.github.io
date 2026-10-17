@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-10-17T11:14:43-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your Name</title><subtitle>Research, art, and articles by Your Name.</subtitle><entry><title type="html">Testing equations</title><link href="http://localhost:4000/articles/testing-equations/" rel="alternate" type="text/html" title="Testing equations" /><published>2026-10-17T00:00:00-05:00</published><updated>2026-10-17T00:00:00-05:00</updated><id>http://localhost:4000/articles/testing-equations</id><content type="html" xml:base="http://localhost:4000/articles/testing-equations/"><![CDATA[<p>A post to show formatted math to see my setup works.</p>
+
+<p>Inline math goes between double dollar signs, like \(e^{i\pi} + 1 = 0\) in the middle of a sentence, or a variable with a subscript such as \(x_i\).</p>
+
+<p>Display math goes on its own lines:</p>
+
+\[\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}\]
+
+<p>Multi-line equations work with <code class="language-plaintext highlighter-rouge">aligned</code>:</p>
+
+\[\begin{aligned}
+\nabla \cdot \mathbf{E} &amp;= \frac{\rho}{\varepsilon_0} \\
+\nabla \times \mathbf{B} &amp;= \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}
+\end{aligned}\]
+
+<p>And matrices:</p>
+
+\[A = \begin{pmatrix} a_{11} &amp; a_{12} \\ a_{21} &amp; a_{22} \end{pmatrix}\]]]></content><author><name></name></author><summary type="html"><![CDATA[A post to show formatted math to see my setup works.]]></summary></entry></feed>
